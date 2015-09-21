@@ -1,0 +1,33 @@
+﻿生成启动时间为 2015/9/10 16:00:33。
+     1>项目“F:\10211125\CodeProject\PDollarForCpp\PDollarForCpp\PDollarForCpp.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PDOLLARFORCPP_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\PDollarForCpp.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>f:\10211125\codeproject\pdollarforcpp\pdollarforcpp\headers\pdollarforcpp.h(13): warning C4190: “classify”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PDOLLARFORCPP_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+     1>f:\10211125\codeproject\pdollarforcpp\pdollarforcpp\headers\pdollarforcpp.h(13): warning C4190: “classify”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PDOLLARFORCPP_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\PDollarForCpp.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Gesture.cpp PDollarForCpp.cpp
+         PDollarForCpp.cpp
+     1>f:\10211125\codeproject\pdollarforcpp\pdollarforcpp\pdollarforcpp.cpp(17): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\10211125\codeproject\pdollarforcpp\pdollarforcpp\pdollarforcpp.cpp(59): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+         Gesture.cpp
+     1>f:\10211125\codeproject\pdollarforcpp\pdollarforcpp\gesture.cpp(33): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\10211125\codeproject\pdollarforcpp\pdollarforcpp\gesture.cpp(54): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\10211125\codeproject\pdollarforcpp\pdollarforcpp\gesture.cpp(66): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\10211125\codeproject\pdollarforcpp\pdollarforcpp\gesture.cpp(76): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\10211125\codeproject\pdollarforcpp\pdollarforcpp\gesture.cpp(87): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\10211125\codeproject\pdollarforcpp\pdollarforcpp\gesture.cpp(104): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\10211125\CodeProject\PDollarForCpp\Debug\PDollarForCpp.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\10211125\CodeProject\PDollarForCpp\Debug\PDollarForCpp.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\10211125\CodeProject\PDollarForCpp\Debug\PDollarForCpp.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\Gesture.obj
+         Debug\PDollarForCpp.obj
+         Debug\stdafx.obj
+            正在创建库 F:\10211125\CodeProject\PDollarForCpp\Debug\PDollarForCpp.lib 和对象 F:\10211125\CodeProject\PDollarForCpp\Debug\PDollarForCpp.exp
+         PDollarForCpp.vcxproj -> F:\10211125\CodeProject\PDollarForCpp\Debug\PDollarForCpp.dll
+     1>已完成生成项目“F:\10211125\CodeProject\PDollarForCpp\PDollarForCpp\PDollarForCpp.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.99
